@@ -21,7 +21,7 @@
   "dependencies": {
     "typescript-styled-plugin": "^0.13.0",
     "typescript-template-language-service-decorator": "^2.2.0",
-    "typescript-template-language-service-decorator-v1": "file:../typescript-template-language-service-decorator",
+    "typescript-template-language-service-decorator-v1": "https://github.com/filiprak/typescript-template-language-service-decorator.git",
     "vscode-html-languageservice": "^2.1.10",
     "vscode-languageserver-types": "3.13.0"
   },
@@ -37,6 +37,7 @@
     "typescript": "^4.2.2"
   },
   "scripts": {
+    "prepare": "npm run compile",
     "compile": "tsc -p .",
     "watch:compile": "tsc --watch -p .",
     "e2e": "mocha e2e/tests --slow 2000 --timeout 10000 --bail",
