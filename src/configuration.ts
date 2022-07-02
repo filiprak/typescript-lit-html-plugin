@@ -11,7 +11,7 @@ interface TsHtmlPluginConfiguration {
 }
 
 const defaultConfiguration: TsHtmlPluginConfiguration = {
-    tags: ['html', 'raw'],
+    tags: ['html', 'raw', 'starts:<'],
     format: {
         enabled: true,
     },

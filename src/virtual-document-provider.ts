@@ -1,6 +1,6 @@
 // Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT License.
-import { TemplateContext } from 'typescript-template-language-service-decorator';
+import { TemplateContext } from 'typescript-template-language-service-decorator-v1';
 import * as vscode from 'vscode-languageserver-types';
 import { VirtualDocumentProvider as StyledVirtualDocumentProvider } from '../node_modules/typescript-styled-plugin/lib/_virtual-document-provider';
 import { LanguageService } from 'vscode-html-languageservice';
